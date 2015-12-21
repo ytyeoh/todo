@@ -16,8 +16,6 @@ class List
   end
 
   def list_all
-
-
     task = TaskController.list
 
     task.each_with_index { |task, i| puts "#{i+1}.\t#{task.name}"}
